@@ -1153,3 +1153,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.21-06.34.13:189][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.037282 secs
 [2024.05.21-06.34.13:221][  2]LogD3D12RHI: Cannot end block when stack is empty
 [2024.05.21-06.36.11:501][962]LogDerivedDataCache: C:/Users/OWNER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.151 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4362 files in 6076 folders with total size 1129 MiB.
+[2024.05.21-07.14.17:696][818]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek HD Audio 2nd output(Realtek(R) Audio), InstanceID=1
+[2024.05.21-07.14.18:236][819]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{30f114b7-acac-4cdb-b86f-07506012fafc}, Name=Realtek HD Audio 2nd output(Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=21.20
+[2024.05.21-07.14.18:236][819]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.05.21-07.14.18:236][819]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.05.21-07.14.18:238][819]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.05.21-07.14.25:685][842]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2024.05.21-07.14.25:900][842]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=22616
+[2024.05.21-07.14.35:689][872]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek HD Audio 2nd output(Realtek(R) Audio), InstanceID=1
+[2024.05.21-07.14.36:238][873]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{30f114b7-acac-4cdb-b86f-07506012fafc}, Name=Realtek HD Audio 2nd output(Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=13.53
+[2024.05.21-07.14.36:238][873]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.05.21-07.14.36:243][873]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
